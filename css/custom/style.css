@@ -1,8 +1,9 @@
 body{
+    background-position: center center;
     margin-bottom: 60px;
     color:#fff;
-    background-size:contain;
-    background: url('../../image/crop.jpg') repeat-y;
+    background-size:cover;
+    background-image: url(https://www.johnlegend.com/wp-content/themes/darknessandlight/assets/images/bg-cover.png);
 }
 ul.menu-item {
     position:relative;
@@ -66,4 +67,10 @@ footer{
     border-right-color: #fff;
     border-bottom-color: #fff;
     border-radius:0;
+}
+header h1{
+    font-family: 'Mandali', sans-serif;
+    text-transform:uppercase;
+    font-size:40px;
+    letter-spacing:4px;
 }
