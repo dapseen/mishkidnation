@@ -74,3 +74,8 @@ header h1{
     font-size:40px;
     letter-spacing:4px;
 }
+@media(min-height: 768px){
+    header h1{
+        font-size:30px
+    }
+}
